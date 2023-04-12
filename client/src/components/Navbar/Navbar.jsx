@@ -31,7 +31,7 @@ const Navbar = () => {
             }
         }
         dispatch(setCurrentUser( JSON.parse(localStorage.getItem('Profile')) ))
-    }, [dispatch])
+    }, [dispatch])// eslint-disable-line react-hooks/exhaustive-deps
 
     return (
         <nav className='main-nav'>
