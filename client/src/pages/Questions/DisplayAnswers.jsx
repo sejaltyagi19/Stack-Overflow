@@ -3,7 +3,6 @@ import moment from 'moment'
 import { Link, useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 
-import QuestionsDetails from './QuestionsDetails'
 import Avatar from '../../components/Avatar/Avatar'
 import { deleteAnswer } from '../../actions/question'
 
